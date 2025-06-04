@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- tailwind css  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awsome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section>
+        <div class="container mx-auto">
+            <div class="">
+
+                <img class="w-[200px]  mx-auto py-10" src="/Img/logo.png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <section class="bg-[url(/Img/page-title.jpg)] h-52 object-cover">
+        <div class="text-white text-center relative w-[50%] mx-auto top-[10%] md:top-[30%]">
+            <h2 class="text-2xl font-bold">Search Your <br> Favorite Recipe</h2>
+            <p class="py-2">A handfull of simple ingredients typify the fresh , vibrant flavors of Greek cooking</p>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <div class="flex border-2  justify-between items-center ">
+                <input id="inputField" class="w-[90%]" type="text" name="" id="">
+                <div class="w-[7%] right-0 bg-orange-500 text-center">
+
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl py-2">
+                    Latest Recipes
+                </h2>
+                <div id="latestRecipes" class="flex flex-wrap justify-between " >
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
